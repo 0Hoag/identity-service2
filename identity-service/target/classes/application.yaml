@@ -1,0 +1,15 @@
+  spring:
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+  server:
+    port: 7777
+    servlet:
+      context-path: /identity
+
+
+
+  jwt:
+    signerKey: "wwOv+rtx294Ez1wUqdUbalzxmElzM4lW3FmBIqik2+xyWm+voUlpqkH5QgGU3M4Y"
